@@ -5,8 +5,6 @@ Instead of playing a video when you click it, the extension copies its clean URL
 
 This lets you collect videos without falling into the recommendation trap.
 
----
-
 ## Features
 
 * On **YouTube Home** and **Subscriptions**, clicking any video:
@@ -20,8 +18,6 @@ This lets you collect videos without falling into the recommendation trap.
   * you’re already on a `/watch` page
 * No data collection, no permissions beyond YouTube page access
 
----
-
 ## Installation (Developer Mode)
 
 1. Clone or download this repository
@@ -30,11 +26,7 @@ This lets you collect videos without falling into the recommendation trap.
 4. Click **Load unpacked**
 5. Select the project folder
 
----
-
 ## Why?
 
 The YouTube homepage and subscriptions page are optimized for engagement, not discipline.
 By removing autoplay from those surfaces, you gain control over when you choose to watch.
-
----
