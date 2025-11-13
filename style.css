@@ -1,0 +1,20 @@
+#yt-link-copier-toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  padding: 8px 14px;
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  font-size: 13px;
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease-out, transform 0.15s ease-out;
+  transform: translateY(6px);
+  z-index: 999999;
+}
+
+#yt-link-copier-toast.yt-link-copier-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
